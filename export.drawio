@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T06:51:35.944Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="DSLEUDDYmp1eb7yCW7N8" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T06:53:30.612Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="mWjKn5Gc7NqCbaTq35st" version="20.2.4" type="github">
   <diagram id="wn4Nq5fyxf2K7DAGSWEc" name="第 1 页">
     <mxGraphModel dx="-1153" dy="-471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -158,10 +158,10 @@
           <mxGeometry x="3030.0000000000005" y="3357.4500000000003" width="92.72" height="65.12" as="geometry" />
         </mxCell>
         <mxCell id="sEo11OKtQAu4mXGvlujK-48" value="task.sql" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="2833" y="3310" width="122.5" height="61.25" as="geometry" />
+          <mxGeometry x="2940" y="3500" width="122.5" height="61.25" as="geometry" />
         </mxCell>
         <mxCell id="sEo11OKtQAu4mXGvlujK-49" value="task.config" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="2833" y="3420.63" width="122.5" height="61.25" as="geometry" />
+          <mxGeometry x="3090" y="3500" width="122.5" height="61.25" as="geometry" />
         </mxCell>
         <mxCell id="sEo11OKtQAu4mXGvlujK-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="sEo11OKtQAu4mXGvlujK-60" target="sEo11OKtQAu4mXGvlujK-52">
           <mxGeometry relative="1" as="geometry" />
@@ -177,18 +177,6 @@
         </mxCell>
         <mxCell id="sEo11OKtQAu4mXGvlujK-54" value="workflow_api.py" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="3630" y="3360.625" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="sEo11OKtQAu4mXGvlujK-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sEo11OKtQAu4mXGvlujK-48" target="sEo11OKtQAu4mXGvlujK-47">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2890" y="3460" as="sourcePoint" />
-            <mxPoint x="3020" y="3360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sEo11OKtQAu4mXGvlujK-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sEo11OKtQAu4mXGvlujK-49" target="sEo11OKtQAu4mXGvlujK-47">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="3001.25" y="3490" as="sourcePoint" />
-            <mxPoint x="3086.3600000000006" y="3432.57" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="sEo11OKtQAu4mXGvlujK-58" value="Load" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3146.25" y="3380.01" width="30" height="20" as="geometry" />
@@ -217,56 +205,35 @@
             <mxPoint x="3630" y="3390.625" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sEo11OKtQAu4mXGvlujK-66" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;HDFS download&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;export_platform_csv_local.sh&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="3560" y="3520" width="138.78" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="sEo11OKtQAu4mXGvlujK-67" value="create&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;dailyconfig&lt;/span&gt;&lt;br&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;export_platform_dailyconfig_create.sh&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="3410" y="3590" width="170" height="48.75" as="geometry" />
-        </mxCell>
-        <mxCell id="sEo11OKtQAu4mXGvlujK-68" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;rsync file&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;export_platform_rsync.sh&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="3240" y="3460" width="140" height="50.44" as="geometry" />
-        </mxCell>
-        <mxCell id="sEo11OKtQAu4mXGvlujK-69" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;seccess return&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;export_platform_s3return.sh&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="3300" y="3530" width="150" height="54.04" as="geometry" />
-        </mxCell>
         <mxCell id="sEo11OKtQAu4mXGvlujK-75" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3280" y="3780" width="120" height="60" as="geometry" />
+          <mxGeometry x="3212.5" y="3890" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sEo11OKtQAu4mXGvlujK-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sEo11OKtQAu4mXGvlujK-67" target="sEo11OKtQAu4mXGvlujK-67">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="sEo11OKtQAu4mXGvlujK-82" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;HDFS download&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;export_platform_csv_local.sh&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="3730" y="3743" width="138.78" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sEo11OKtQAu4mXGvlujK-77" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sEo11OKtQAu4mXGvlujK-68" target="sEo11OKtQAu4mXGvlujK-52">
+        <mxCell id="sEo11OKtQAu4mXGvlujK-83" value="create&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;dailyconfig&lt;/span&gt;&lt;br&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;export_platform_dailyconfig_create.sh&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="3580" y="3813" width="170" height="48.75" as="geometry" />
+        </mxCell>
+        <mxCell id="sEo11OKtQAu4mXGvlujK-84" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;rsync file&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;export_platform_rsync.sh&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="3410" y="3683" width="140" height="50.44" as="geometry" />
+        </mxCell>
+        <mxCell id="sEo11OKtQAu4mXGvlujK-85" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;seccess return&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;export_platform_s3return.sh&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="3470" y="3753" width="150" height="54.04" as="geometry" />
+        </mxCell>
+        <mxCell id="sEo11OKtQAu4mXGvlujK-86" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;sql to csv&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;export_platform_csv.py&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="3781.22" y="3680" width="138.78" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sEo11OKtQAu4mXGvlujK-87" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sEo11OKtQAu4mXGvlujK-48" target="sEo11OKtQAu4mXGvlujK-47">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2965.5" y="3350.625" as="sourcePoint" />
-            <mxPoint x="3040.0000000000005" y="3400.01" as="targetPoint" />
+            <mxPoint x="2980" y="3470" as="sourcePoint" />
+            <mxPoint x="3030" y="3420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sEo11OKtQAu4mXGvlujK-78" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sEo11OKtQAu4mXGvlujK-69" target="sEo11OKtQAu4mXGvlujK-52">
+        <mxCell id="sEo11OKtQAu4mXGvlujK-88" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="sEo11OKtQAu4mXGvlujK-49" target="sEo11OKtQAu4mXGvlujK-47">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="3305" y="3470" as="sourcePoint" />
-            <mxPoint x="3510" y="3430.625" as="targetPoint" />
+            <mxPoint x="2978.75" y="3517" as="sourcePoint" />
+            <mxPoint x="3086.3600000000006" y="3432.57" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="sEo11OKtQAu4mXGvlujK-79" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sEo11OKtQAu4mXGvlujK-67" target="sEo11OKtQAu4mXGvlujK-52">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="3365" y="3560" as="sourcePoint" />
-            <mxPoint x="3510" y="3430.625" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sEo11OKtQAu4mXGvlujK-80" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sEo11OKtQAu4mXGvlujK-66" target="sEo11OKtQAu4mXGvlujK-52">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="3495" y="3640" as="sourcePoint" />
-            <mxPoint x="3510" y="3430.625" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sEo11OKtQAu4mXGvlujK-81" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sEo11OKtQAu4mXGvlujK-65" target="sEo11OKtQAu4mXGvlujK-52">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="3635" y="3560" as="sourcePoint" />
-            <mxPoint x="3510" y="3430.625" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sEo11OKtQAu4mXGvlujK-65" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;sql to csv&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;export_platform_csv.py&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="3611.22" y="3457" width="138.78" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
