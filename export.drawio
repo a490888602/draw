@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T06:39:32.512Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="X6Ts5upgJWL9DTUnvdwz" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T06:41:22.292Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="GefFO0OlRAi1VtrCc0zn" version="20.2.4" type="github">
   <diagram id="wn4Nq5fyxf2K7DAGSWEc" name="第 1 页">
     <mxGraphModel dx="-1153" dy="-471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -151,18 +151,6 @@
         <mxCell id="sEo11OKtQAu4mXGvlujK-42" value="&lt;p style=&quot;line-height: 0.4;&quot; data-pm-slice=&quot;1 1 []&quot;&gt;RSYNC_PATH&lt;/p&gt;&lt;p style=&quot;line-height: 0.4;&quot; data-pm-slice=&quot;1 1 []&quot;&gt;RYSYNC_USER_NAME&lt;/p&gt;&lt;p style=&quot;line-height: 0.4;&quot; data-pm-slice=&quot;1 1 []&quot;&gt;RSYNC_IP&lt;/p&gt;&lt;p style=&quot;line-height: 0.4;&quot; data-pm-slice=&quot;1 1 []&quot;&gt;date&lt;/p&gt;&lt;p style=&quot;line-height: 0.4;&quot; data-pm-slice=&quot;1 1 []&quot;&gt;LOCAL_HOME_DIR&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="4323.68" y="2440" width="108.63" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sEo11OKtQAu4mXGvlujK-43" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;b id=&quot;docs-internal-guid-1db8cb69-7fff-2b1f-aeeb-fe74d5b6c8b4&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;p style=&quot;line-height:1.38;margin-top:12pt;margin-bottom:12pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;.sql .config -&amp;gt; .s3config local_ip split s3_path -&amp;gt; workflow_config_initialize.py : workflow.config&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:12pt;margin-bottom:12pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;-&amp;gt; workflow api :create workflow&lt;/span&gt;&lt;/p&gt;&lt;/b&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="3480" y="3120" width="560" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="sEo11OKtQAu4mXGvlujK-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="1" source="sEo11OKtQAu4mXGvlujK-45" target="sEo11OKtQAu4mXGvlujK-46">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sEo11OKtQAu4mXGvlujK-45" value="&lt;p style=&quot;line-height: 0.4;&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 0.4;&quot; data-pm-slice=&quot;1 1 []&quot;&gt;split_num&lt;/p&gt;&lt;p style=&quot;line-height: 0.4;&quot; data-pm-slice=&quot;1 1 []&quot;&gt;map&lt;/p&gt;&lt;p style=&quot;line-height: 0.4;&quot; data-pm-slice=&quot;1 1 []&quot;&gt;task SQL&lt;/p&gt;&lt;p style=&quot;line-height: 0.4;&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="3860.0000000000005" y="3220" width="92.72" height="65.12" as="geometry" />
-        </mxCell>
-        <mxCell id="sEo11OKtQAu4mXGvlujK-46" value="export_platform_csv.py" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="4012.72" y="3221.9399999999996" width="122.5" height="61.25" as="geometry" />
-        </mxCell>
         <mxCell id="sEo11OKtQAu4mXGvlujK-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="sEo11OKtQAu4mXGvlujK-58" target="sEo11OKtQAu4mXGvlujK-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -228,6 +216,9 @@
             <mxPoint x="3560" y="3390.625" as="sourcePoint" />
             <mxPoint x="3630" y="3390.625" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="sEo11OKtQAu4mXGvlujK-64" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="3290" y="3670" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
