@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T07:51:32.849Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="u4XZWB-PUXBo_rW3WA87" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T08:37:33.608Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="pmal22tPN7mf4-cpcxc7" version="20.2.4" type="github">
   <diagram id="wn4Nq5fyxf2K7DAGSWEc" name="第 1 页">
     <mxGraphModel dx="-1247" dy="-471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -483,6 +483,12 @@
         </mxCell>
         <mxCell id="sEo11OKtQAu4mXGvlujK-169" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PATH&lt;/span&gt;&lt;/div&gt;&lt;p style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; data-pm-slice=&quot;1 1 []&quot;&gt;/data/export_data/collection/bin/s3_config&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5176" y="3481.25" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sEo11OKtQAu4mXGvlujK-171" value="local bin credit权限" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="5540" y="3173.96" width="58.08" height="29.04" as="geometry" />
+        </mxCell>
+        <mxCell id="sEo11OKtQAu4mXGvlujK-172" value="local collection credit权限" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="5540" y="3215.48" width="58.08" height="44.52" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
