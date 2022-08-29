@@ -1,1 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2022-08-29T09:36:57.810Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.7" etag="hmaFfDdr3n4-X-ebEBqK" type="github"><diagram id="vODys8mkGl-nHk8L58n5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-29T09:55:48.643Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="F_KQhN3LoYfYqy-6BfH_" version="20.2.7" type="github">
+  <diagram id="vODys8mkGl-nHk8L58n5" name="第 1 页">
+    <mxGraphModel dx="1234" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Levo3wiTHjZYaRg41nDo-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Levo3wiTHjZYaRg41nDo-2" target="Levo3wiTHjZYaRg41nDo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Levo3wiTHjZYaRg41nDo-2" value="&lt;p style=&quot;text-align: left;&quot; data-pm-slice=&quot;1 1 []&quot;&gt;grass_date(date_list)&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;grass_region(task_name)&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;bucket_name(task_name)&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;rpt_filename(task_name)&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;root_path&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;today&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="230" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Levo3wiTHjZYaRg41nDo-3" value="config" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Levo3wiTHjZYaRg41nDo-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Levo3wiTHjZYaRg41nDo-5" target="Levo3wiTHjZYaRg41nDo-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Levo3wiTHjZYaRg41nDo-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Levo3wiTHjZYaRg41nDo-2" target="Levo3wiTHjZYaRg41nDo-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="315" />
+              <mxPoint x="310" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Levo3wiTHjZYaRg41nDo-5" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;get_s3_csv_list&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;(查看file是否存在；对应&lt;span style=&quot;background-color: initial;&quot;&gt;日期和业务&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;获取s3上对应的文件名&lt;/span&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="272.5" width="170" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Levo3wiTHjZYaRg41nDo-7" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Levo3wiTHjZYaRg41nDo-9" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;get_s3_csv_list_by_bz&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
