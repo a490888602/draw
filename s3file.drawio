@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-29T10:37:27.440Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="kh8SiuhALvJwUD63LuDc" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-29T10:38:32.940Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="qXQBs-4C-ePHWxS6Ql1-" version="20.2.7" type="github">
   <diagram id="vODys8mkGl-nHk8L58n5" name="第 1 页">
     <mxGraphModel dx="1234" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,6 +84,21 @@
         </mxCell>
         <mxCell id="Levo3wiTHjZYaRg41nDo-26" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;credit.ods__ceph_config_table__df&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;metadata(dqc data)&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;which task finished&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2050" y="282.5" width="210" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Levo3wiTHjZYaRg41nDo-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Levo3wiTHjZYaRg41nDo-34" target="Levo3wiTHjZYaRg41nDo-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Levo3wiTHjZYaRg41nDo-34" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;get_file_to_spark_server&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;download csv from s3 to 195&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="590" y="490" width="200" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="Levo3wiTHjZYaRg41nDo-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Levo3wiTHjZYaRg41nDo-35" target="Levo3wiTHjZYaRg41nDo-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Levo3wiTHjZYaRg41nDo-35" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;upload_csv_file_to_hdfs&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="827" y="503.75" width="135" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Levo3wiTHjZYaRg41nDo-36" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;csv_to_orc&lt;/p&gt;&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;hdfs csv file to orc file&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="507.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
