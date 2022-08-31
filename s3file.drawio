@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T08:58:49.459Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="AM5PLNHwxw7eDRqWzfO5" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T08:59:14.525Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="m7zWMW37PWNaxL-1-fcR" version="20.2.7" type="github">
   <diagram id="vODys8mkGl-nHk8L58n5" name="第 1 页">
     <mxGraphModel dx="1452" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -182,9 +182,6 @@
         <mxCell id="RVwE4k4dkOmhBYXqThEL-31" value=".py" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1195" y="520" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RVwE4k4dkOmhBYXqThEL-34" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="704.5" y="1240" width="538" height="330" as="geometry" />
-        </mxCell>
         <mxCell id="RVwE4k4dkOmhBYXqThEL-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RVwE4k4dkOmhBYXqThEL-36" target="RVwE4k4dkOmhBYXqThEL-47">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1105" y="1505" as="targetPoint" />
@@ -202,6 +199,9 @@
         </mxCell>
         <mxCell id="RVwE4k4dkOmhBYXqThEL-38" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;csv(s3) to 195&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="725" y="1365" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RVwE4k4dkOmhBYXqThEL-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RVwE4k4dkOmhBYXqThEL-39" target="RVwE4k4dkOmhBYXqThEL-49">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RVwE4k4dkOmhBYXqThEL-39" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;config&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="330" y="1365" width="140" height="80" as="geometry" />
@@ -238,10 +238,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RVwE4k4dkOmhBYXqThEL-51" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;check_file&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="822" y="1265" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RVwE4k4dkOmhBYXqThEL-52" value=".py" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1155" y="1245" width="60" height="30" as="geometry" />
+          <mxGeometry x="822" y="1260" width="128" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
